@@ -1,0 +1,216 @@
+<section class="single-product">
+  <div class="container">
+    <div class="row">
+      <h2>
+        Clear H2O 5ST 3.2 Gallon 5-Stage Certified Ultra Safe Reverse-Osmosis
+        Drinking Water Purifier System.
+      </h2>
+
+      <div class="col-md-5">
+        <div class="single-product-slider">
+          <div
+            class="carousel slide"
+            data-ride="carousel"
+            id="single-product-slider"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/images/p-4.jpeg"
+                  alt=""
+                  class="img-fluid"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/p-3.jpeg"
+                  alt=""
+                  class="img-fluid"
+                  style="width: 100%"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/p-2.jpeg"
+                  alt=""
+                  class="img-fluid"
+                  style="width: 100%; max-height: 445px"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/images/p-1.jpeg"
+                  alt=""
+                  class="img-fluid"
+                  style="width: 100%"
+                />
+              </div>
+            </div>
+
+            <ol class="carousel-indicators">
+              <li
+                data-target="#single-product-slider"
+                data-slide-to="0"
+                class="active"
+              >
+                <img src="assets/images/p-4.jpeg" alt="" class="img-fluid" />
+              </li>
+              <li data-target="#single-product-slider" data-slide-to="1">
+                <img src="assets/images/p-3.jpeg" alt="" class="img-fluid" />
+              </li>
+              <li data-target="#single-product-slider" data-slide-to="1">
+                <img src="assets/images/p-2.jpeg" alt="" class="img-fluid" />
+              </li>
+              <li data-target="#single-product-slider" data-slide-to="2">
+                <img src="assets/images/p-1.jpeg" alt="" class="img-fluid" />
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-7">
+        <div class="single-product-details mt-5 mt-lg-0">
+          <hr />
+
+          <h3 class="product-price">N250,000</h3>
+
+          <form class="cart" [formGroup]="priceForm">
+            <div class="quantity d-flex align-items-center">
+              <input
+                type="number"
+                id="price"
+                class="input-text qty text form-control w-25 mr-3"
+                value="{{ price }}"
+                (input)="valueChanged($event)"
+                name="quantity"
+                title="Qty"
+                size="4"
+              />
+              <a
+                routerLink="/checkout"
+                [queryParams]="{ n: price }"
+                class="btn btn-main btn-small"
+                >Buy Now</a
+              >
+            </div>
+          </form>
+
+          <!-- <p class="product-description my-4">
+            Premium long lasting purifiers that remove up to 99% of many
+            contaminants that give water unpleasant taste, odor, and color, and
+            make it harmful to you and your family.
+            <br />
+            <br />
+            Supreme quality household water treatment device made in Europe
+            <br />
+            <br />
+            100% lead-free designer faucet, plus certified food-grade tubing and
+            parts to provide safe, contamination-free pure water.
+            <br />
+            <br />
+            - High quality leak-free quick connect fittings.
+          </p> -->
+
+          <div class="products-meta mt-4">
+            <div class="product-category d-flex align-items-center">
+              <span class="font-weight-bold text-capitalize product-meta-title"
+                >Categories:
+              </span>
+              <a href="#" style="margin-left: 26px"> Under-sink filtration </a>
+              <!-- <a href="#">Plumbing</a> -->
+            </div>
+
+            <div class="product-share mt-5">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="#"><i class="tf-ion-social-facebook"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="tf-ion-social-twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="tf-ion-social-linkedin"></i></a>
+                </li>
+                <!-- <li class="list-inline-item">
+                  <a href="#"><i class="tf-ion-social-pinterest"></i></a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <nav class="product-info-tabs wc-tabs mt-5 mb-5">
+          <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+            <a
+              class="nav-item nav-link active"
+              id="nav-home-tab"
+              data-toggle="tab"
+              href="#nav-home"
+              role="tab"
+              aria-controls="nav-home"
+              aria-selected="true"
+              >Description</a
+            >
+          </div>
+        </nav>
+
+        <div class="tab-content" id="nav-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="nav-home"
+            role="tabpanel"
+            aria-labelledby="nav-home-tab"
+          >
+            <p>
+              Get bottled water grade drinking water produced in your home. Quit
+              buying water and producing plastic waste. <br /><br />
+              Switch to the Clear H2O Pro Under-sink water purifier...
+              <br /><br />And get 10% off the price when you do today!<br />
+              <br />
+            </p>
+
+            <h5>But first, here's what you get:</h5>
+
+            <ul class="">
+              <li>
+                Premium long lasting purifiers that remove up to 99% of many
+                contaminants that give water unpleasant taste, odor, and color,
+                and make it harmful to you and your family.
+              </li>
+              <li>
+                Supreme quality household water treatment device made in Europe
+              </li>
+
+              <li>
+                100% lead-free designer faucet, plus certified food-grade tubing
+                and parts to provide safe, contamination-free pure water. High
+                quality leak-free quick connect fittings.
+              </li>
+            </ul>
+
+            <br />
+            <p>
+              (Click the “Buy Now” button to learn how you can qualify for the
+              10% discount.)
+            </p>
+
+            <div>
+              <a
+                routerLink="/checkout"
+                [queryParams]="{ n: price }"
+                class="btn btn-main btn-small"
+                >Buy Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
